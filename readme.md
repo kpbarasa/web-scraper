@@ -1,5 +1,5 @@
 # Web sraper
-  Extracts title and url  form  in json format  using Axios for fetch requests and Cheerio to pick out html element from html elements on a web page. After collection the dat will then be convert to CSV file using json-2-csv
+  Extracts all titles and coresponding urls  from a web page in json format   Cheerio to pick out html element from html elements on a web page. After collection the dat will then be convert to CSV file using json-2-csv
 
 # Dependencies
   "axios": "^0.27.2",
