@@ -19,7 +19,11 @@
 # Dependencies
 
   "axios": "^0.27.2",
+
   "cheerio": "^1.0.0-rc.12",
+
   "cors": "^2.8.5",
+
   "express": "^4.18.1",
+  
   "json-2-csv": "^3.17.1"
