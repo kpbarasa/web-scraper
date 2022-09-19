@@ -22,13 +22,13 @@ app.get('/results', (req, res) => {
             const articles = []
 
             // Get title and Url  
-            $('.fc-item__title', html).each(function () { //fc-item__title csss
-                
-                const title = $(this).text()              // Grab tittle text
+            $('.fc-item__title', html).each(function () {    //fc-item__title csss
 
-                const url = $(this).find('a').attr('href') // Finds the anchor (a Tag) Grab href attribute from title element
+                const title = $(this).text()                 // Grab tittle text
 
-                articles.push({                           // Create array with an object  of title and Url [{"title":"", "url":""}]
+                const url = $(this).find('a').attr('href')   // Finds the anchor (a Tag) Grab href attribute from title element
+
+                articles.push({                              // Create array with an object  of title and Url [{"title":"", "url":""}]
                     title,
                     url
                 })
